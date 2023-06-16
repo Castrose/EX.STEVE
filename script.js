@@ -99,7 +99,7 @@ function validator(field) {
                     canNext.push(true);
                     sessionStorage.setItem('addressInput', address.value);
                 } else {
-                    validateField.textContent = 'Invalid email';
+                    validateField.textContent = 'Invalid Address';
                     validateField.style.color = '#FF0000';
                     canNext.push(false);
                 }
